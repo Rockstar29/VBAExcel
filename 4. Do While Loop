@@ -1,0 +1,14 @@
+Sub FunWithLoop()
+  Dim i As Integer
+  i = 1
+  do while i is <= 10
+    If activecell.value > 10 then
+        Activecell.Interior.color=RGB(255,0,0)
+    End if 
+  
+    Activecell.offset(1,0).select
+  
+    i = i + 1
+    Loop
+End Sub
+#comment column output with number greater than 10 than it will be cloured
