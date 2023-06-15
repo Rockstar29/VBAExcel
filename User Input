@@ -1,0 +1,6 @@
+Public Sub FunWithProcedures()
+  dim userInput As String
+  userInput = "Excel VBA"
+  Activecell.value = userInput
+End Sub
+#Output = "VBA Excel"
