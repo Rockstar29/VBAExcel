@@ -1,0 +1,4 @@
+Sub FunWithProcedures()
+  Activecell.value = "VBA Excel"
+End Sub
+#Output = "VBA Excel"
