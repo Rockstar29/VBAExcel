@@ -1,0 +1,15 @@
+##Creat prompt. Little Input box. Ask User how would they would like to sort the list. Using VbCrLF
+
+Public Sub UserSortInput()
+Dim userInput as String
+Dim PromtMSG As String
+
+PromtMSG = “Enter a number value to sort…..”&
+VbCrLF &
+“1…..Sort by Division” & VbCrLF &
+“2…..Sort by Category” & VbCrLF &
+“3…..Sort by Total” 
+
+uresInput = InputBox (Prompt MSG)
+  End Sub
+#comment column output with number greater than 10 than it will be clou
