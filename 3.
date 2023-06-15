@@ -1,0 +1,10 @@
+Public Sub FunWithProcedures()
+  dim userInput As Strings
+  userInput = "21"
+  If userInput > 20 then 
+    activecell.value = "Access Granted"
+  Else 
+    Activecell.value = userInput
+  End If
+End Sub
+#Output = "Based on cell value"
